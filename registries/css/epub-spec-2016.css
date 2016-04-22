@@ -299,8 +299,6 @@ nav.toc > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li >s
 
 dl dt {
     margin-top: 1em;
-    margin-bottom: 1em;
-    font-weight: bold;
 }
 
 dt span.term {
@@ -911,4 +909,10 @@ span.deprecated {
 
 span.draft {
     color: rgb(240,144,48);
+}
+
+div#roles dt,
+div#types dt {
+    margin-bottom: 1em;
+    font-weight: bold;
 }
