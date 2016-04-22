@@ -911,8 +911,8 @@ span.draft {
     color: rgb(240,144,48);
 }
 
-div#roles dt,
-div#types dt {
+dl#roles dt,
+dl#types dt {
     margin-bottom: 1em;
     font-weight: bold;
 }
