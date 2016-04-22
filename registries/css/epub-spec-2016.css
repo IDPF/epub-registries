@@ -40,7 +40,7 @@ header {
     font-size: 90%
 }
 
-dl.printhistory {
+dl.printhistory, div.history {
     margin-top: 2em;
     margin-bottom: 2em
 }
