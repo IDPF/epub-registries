@@ -1,4 +1,4 @@
-# Epub Registries
+# EPUB Registries
 
 This repository contains the set of extensible registries used in EPUB Publications.
 
