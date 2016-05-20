@@ -96,7 +96,7 @@
 			
 			<dl id="acquire">
 				<dt><span class="property">acquire</span></dt>
-				<dd>The <span class="property">acquire</span> relationship is used
+				<dd>The <span class="property">acquire</span> keyword is used
 					with <a href="http://www.idpf.org/epub/previews">EPUB Previews</a> to identify where the
 					full version of the <a
 						href="http://www.idpf.org/epub3/latest/#gloss-epub-publication">EPUB
@@ -112,10 +112,19 @@
 			
 			<dl id="alternate">
 				<dt><span class="property">alternate</span></dt>
-				<dd>The <span class="property">alternate</span> relationship
-					identifies an alternative representation of the Package Document, when used in the
-					Package Document metadata, or the object represented by a 
-					<code class="markup">collection</code>.</dd>
+				<dd><p>The <span class="property">alternate</span> keyword is a subset of the 
+					<a href="https://www.w3.org/TR/html5/links.html#rel-alternate">HTML5 
+					<code>alternate</code> keyword</a> for links:</p>
+					<ul>
+						<li>It cannot be paired with other keywords.</li>
+						<li>If an alternate link is included in the Package Document metadata, it identifies
+							an alternate representation of the Package Document in the format specified in the
+							<code>media-type</code> attribute.</li>
+						<li>If an alternate link is included in a collection element's metadata, it identifies
+							an alternate representation of the collection in the format specified in the
+							<code>media-type</code> attribute.</li>
+					</ul>
+				</dd>
 				<dt>Cardinality:</dt>
 				<dd>Zero or more</dd>
 				<dt>Example:</dt>
@@ -128,8 +137,8 @@
 			<dl id="marc21xml-record">
 				<dt><span class="property">marc21xml-record</span>  <span class="status deprecated">[DEPRECATED]</span></dt>
 				<dd>Use of the <span
-						class="property">marc21xml-record</span> relationship is deprecated. It is replaced
-					by the <a href="#record"><span class="property">record</span></a> relationship with the
+						class="property">marc21xml-record</span> keyword is deprecated. It is replaced
+					by the <a href="#record"><span class="property">record</span></a> keyword with the
 						<a href="http://www.idpf.org/epub3/latest/packages/#attrdef-link-media-type"
 							><code>media-type</code> attribute</a>
 					<a href="#refPackages3">[Packages3]</a> value
@@ -139,8 +148,8 @@
 			<dl id="mods-record">
 				<dt><span class="property">mods-record</span>  <span class="status deprecated">[DEPRECATED]</span></dt>
 				<dd>Use of the <span
-						class="property">mods-record</span> relationship is deprecated. It is replaced by the
-					<a href="#record"><span class="property">record</span></a> relationship with the <a
+					class="property">mods-record</span> keyword is deprecated. It is replaced by the
+					<a href="#record"><span class="property">record</span></a> keyword with the <a
 						href="http://www.idpf.org/epub3/latest/packages/#attrdef-link-media-type"
 							><code>media-type</code> attribute</a>
 					<a href="#refPackages3">[Packages3]</a> value "<code>application/mods+xml</code>".</dd>
@@ -149,8 +158,8 @@
 			<dl id="onix-record">
 				<dt><span class="property">onix-record</span>  <span class="status deprecated">[DEPRECATED]</span></dt>
 				<dd>Use of the <span
-						class="property">onix-record</span> relationship is deprecated. It is replaced by the
-					<a href="#record"><span class="property">record</span></a> relationship with the <a
+					class="property">onix-record</span> keyword is deprecated. It is replaced by the
+					<a href="#record"><span class="property">record</span></a> keyword with the <a
 						href="http://www.idpf.org/epub3/latest/packages/#attrdef-link-properties">properties
 						attribute</a>
 					<a href="#refPackages3">[Packages3]</a> value <a href="#onix"><code>onix</code></a>.</dd>
@@ -163,7 +172,7 @@
 					<p>The media type of the record is identified in the <a
 							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-media-type"><code
 								class="markup">media-type</code> attribute</a>
-						<a href="#refPackages3">[Packages3]</a> when this relationship is specified.</p>
+						<a href="#refPackages3">[Packages3]</a> when this keyword is specified.</p>
 					<p>If the type of record cannot be identified from the media type, an <a
 							href="#sec-link-properties">identifier property</a> can be assigned in the <a
 							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-properties"><code
@@ -182,7 +191,7 @@
 			<dl id="xml-signature">
 				<dt><span class="property">xml-signature</span></dt>
 				<dd>
-					<p>The <span class="property">xml-signature</span> relationship indicates the referenced
+					<p>The <span class="property">xml-signature</span> keyword indicates the referenced
 						resource contains an XML Signature <a href="#refXMLDSIGCORE"
 								>[<abbr>XML DSIG Core</abbr>]</a> for the <a
 							href="http://www.idpf.org/epub3/latest/#gloss-epub-publication"
@@ -209,8 +218,8 @@
 			<dl id="xmp-record">
 				<dt><span class="property">xmp-record</span> <span class="status deprecated">[DEPRECATED]</span></dt>
 				<dd>Use of the <span
-						class="property">xmp-record</span> relationship is deprecated. It is replaced by the
-					<a href="#record"><span class="property">record</span></a> relationship with the <a
+					class="property">xmp-record</span> keyword is deprecated. It is replaced by the
+					<a href="#record"><span class="property">record</span></a> keyword with the <a
 						href="http://www.idpf.org/epub3/latest/packages/#attrdef-link-properties">properties
 						attribute</a> value <a href="#xmp"><code>xmp</code></a>.</dd>
 			</dl>
