@@ -11,6 +11,7 @@
 		<style>
 			dl { margin: 2em 0; padding: 0.25em 0.5em 1em 1em; background-color: rgb(236,246,255); border-left: 5px solid rgb(145,200,255) }
 			dt { font-weight: bold; font-size: 90%; padding: 0 0 0.5em 0; }
+			code { color: rgb(102,0,0) !important; }
 			code.example { font-size: 1.1em; display: block; color: rgb(0,0,0) !important; }
 			dl > dt:first-child { font-size: 120%; }
 			span.status { font-size: 65%; }
@@ -70,7 +71,7 @@
 				<p>This document defines relationships and properties for use with the EPUB® <a
 						href="http://www.idpf.org/epub3/latest/#gloss-package-document">Package Document</a>
 					<a href="http://www.idpf.org/epub3/latest/packages/#sec-link-elem"
-						title="3.4.9 The link Element"><code class="markup">link</code> element</a>
+						title="3.4.9 The link Element"><code>link</code> element</a>
 					<a href="#refPackages3">[Packages3]</a>.</p>
 			</section>
 			
@@ -87,10 +88,10 @@
 		<section id="sec-link-rel" class="chapter">
 			<h1 class="title">2. Link Relationships</h1>
 			
-			<p>The following values can be used in the <code class="markup">link</code> element <a 
-					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-rel"><code class="markup">rel</code>
+			<p>The following values can be used in the <code>link</code> element <a 
+					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-rel"><code>rel</code>
 					attribute</a> to establish the relationship of the resource referenced in the <a 
-					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-href"><code class="markup">href</code>
+					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-href"><code>href</code>
 					attribute</a>
 				<a href="#refPackages3">[Packages3]</a>.</p>
 			
@@ -173,13 +174,11 @@
 				<dd>
 					<p>Indicates that the referenced resource is a metadata record.</p>
 					<p>The media type of the record is identified in the <a
-							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-media-type"><code
-								class="markup">media-type</code> attribute</a>
+							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-media-type"><code>media-type</code> attribute</a>
 						<a href="#refPackages3">[Packages3]</a> when this keyword is specified.</p>
 					<p>If the type of record cannot be identified from the media type, an <a
 							href="#sec-link-properties">identifier property</a> can be assigned in the <a
-							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-properties"><code
-								class="markup">properties</code> attribute</a>
+							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-properties"><code>properties</code> attribute</a>
 						<a href="#refPackages3">[Packages3]</a>.</p>
 				</dd>
 				<dt>Cardinality:</dt>
@@ -200,10 +199,8 @@
 							href="http://www.idpf.org/epub3/latest/#gloss-epub-publication"
 							>EPUB Publication</a>.</p>
 					<p>The <a 
-							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-href"><code
-								class="markup">href</code> attribute</a>
-						<a href="#refPackages3">[Packages3]</a> typically references a specific <code
-							class="markup">signature</code> element in the <a
+							href="http://www.idpf.org/epub3/latest/packages#attrdef-link-href"><code>href</code> attribute</a>
+						<a href="#refPackages3">[Packages3]</a> typically references a specific <code>signature</code> element in the <a
 							href="http://www.idpf.org/epub3/latest/ocf/#sec-container-metainf-signatures.xml"
 								><code class="filename">signatures.xml</code> file</a>
 						<a href="#refOCF3">[<abbr>OCF3</abbr>]</a> via a fragment
@@ -230,8 +227,8 @@
 		
 		<section id="sec-link-properties" class="chapter">
 			<h1 class="title">3. Link Properties</h1>
-			<p>The following values can be used in the <code class="markup">link</code> element <a 
-					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-rel"><code class="markup">rel</code>
+			<p>The following values can be used in the <code>link</code> element <a 
+					href="http://www.idpf.org/epub3/latest/packages#attrdef-link-rel"><code>rel</code>
 					attribute</a>
 				<a href="#refPackages3">[Packages3]</a> to establish the type of record a referenced resource represents.
 				These values are provided for record formats that cannot be uniquely identified by their media type.</p>
