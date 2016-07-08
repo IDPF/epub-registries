@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
 	<head>
-		<title>EPUB Optimized Publication Identifier Registry</title>
+		<title>EPUB Optimized Publication Standards Registry</title>
 		<meta charset="utf-8"/>
 		<meta name="dcterms:creator" content="Matt Garrish" />
 		<meta name="dcterms:publisher" content="International Digital Publishing Forum (IDPF)" />
 		<link rel="stylesheet" type="text/css" href="../css/registries.css" />
+		<style>
+			code {
+				font-size: 80%;
+				font-weight: bold;
+				color: rgb(90,0,0);
+			}
+		</style>
 	</head>
 	<body>
 		<header>
 			<p><a href="http://www.idpf.org"><img src="http://www.idpf.org/epub/images/idpflogo_web_125.jpg" alt="IDPF" class="logo"/></a></p>
 			
-			<h1 class="title">EPUB Optimized Publication Identifier Registry</h1>
+			<h1 class="title">EPUB Optimized Publication Standards Registry</h1>
 			
 			<p class="identity">
 				<span class="pubdate">8 July 2016</span>
@@ -34,9 +41,9 @@
 		
 		<section id="sotd" class="section">
 			<h2>Status of this Document</h2>
-			<p>This document is subject to change at any time. The identifiers defined herein may be deprecated or removed.</p>
-			<p>Deprecated identifiers are identified by the label <span class="status deprecated">[DEPRECATED]</span>. These 
-				identifiers are no longer recommended for use.</p>
+			<p>This document is subject to change at any time. The standards defined herein may be deprecated or removed.</p>
+			<p>Deprecated standards are identified by the label <span class="status deprecated">[DEPRECATED]</span>. These 
+				standards are no longer recommended for use.</p>
 			<p>Requests for additions, modifications and clarifications can be made through the <a 
 				href="https://github.com/IDPF/epub-registries/issues">Issue Tracker</a>. <a 
 					href="https://github.com/IDPF/epub-registries/pulls">Pull requests</a> are also welcome.</p>
@@ -46,14 +53,14 @@
 			<h2 class="toc-title">Table of Contents</h2>
 			<ol class="toc">
 				<li><span class="section"><a href="#sec-overview">Overview</a></span></li>
-				<li><span class="section"><a href="#sec-ids">Identifiers</a></span></li>
+				<li><span class="section"><a href="#sec-standards">Standards</a></span></li>
 			</ol>
 		</nav>
 		
 		<section class="chapter" id="sec-overview">
 			<h1 class="title" id="overview_h">Overview</h1>
 			
-			<p>This document lists identifiers for Optimized EPUB Publications &#8211; publications
+			<p>This informative document lists standards for Optimized EPUB Publications &#8211; publications
 				that have been optimized for a specific reading modality.</p>
 			
 			<p>Refer to the <a href="http://www.idpf.org/epub/a11y/">EPUB Accessibility specification</a> 
@@ -61,15 +68,19 @@
 				in the Package Document metadata.</p>
 		</section>
 		
-		<section class="chapter" id="sec-ids">
-			<h1 class="title" id="roles_h">Roles</h1>
+		<section class="chapter" id="sec-standards">
+			<h1 class="title" id="id_h">Standards</h1>
+			
+			<p><small>Inclusion of standards in this registry does not constitute endorsement of them by
+				the IDPF, its board or its membership.</small></p>
 			
 			<dl>
-				<dt id="daisy-audio">http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines</dt>
+				<dt id="daisy-audio"><a 
+					href="http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines">DAISY Guidelines 
+					for Navigable Audio-Only EPUB 3 Publications</a></dt>
 				<dd>
-					<p>Identifies EPUB Publications that conform to the DAISY <a 
-						href="http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines">Guidelines 
-						for Navigable Audio-Only EPUB 3 Publications</a>.</p>
+					<p>Provides guidelines for creating audio-only EPUB Publications using Media Overlays.</p>
+					<p>Identified by the conformance IRI: <br/><code>http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines</code>.</p>
 				</dd>
 			</dl>
 		</section>
