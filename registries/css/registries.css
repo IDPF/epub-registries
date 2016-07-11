@@ -2,8 +2,7 @@
 
 @import url('https://www.idpf.org/epub/css/epub-spec-2016.css');
 
-dl#roles dt,
-dl#types dt {
+dl dt {
     margin-bottom: 1em;
     font-weight: bold;
 }
