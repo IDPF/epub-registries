@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>EPUB Optimized Publication Standards Registry</title>
+		<script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove" defer="defer"></script>
+		<script class="remove">
+		  // <![CDATA[
+			var respecConfig = {
+				wg: "EPUB 3 Community Group",
+				wgURI: "https://www.w3.org/community/epub3/",
+				wgPublicList: "public-epub3",
+				specStatus: "CG-DRAFT",
+				edDraftURI: "https://idpf.github.io/epub-registries/registries/optimizations/optimizations.html",
+				// publishDate: "2018-03-26",
+				noRecTrack: true,
+				editors: [
+					{
+						"name": "Matt Garrish",
+						"company": "DAISY Consortium",
+						"companyURL": "http://www.daisy.org",
+						"w3cid": 51655
+					}
+				],
+				processVersion: 2018,
+				includePermalinks: true,
+				permalinkEdge:     true,
+				permalinkHide:     false,
+				diffTool:          "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
+				github: {
+					repoURL: "https://github.com/idpf/epub-registries",
+					branch: "master"
+				}
+			};
+          // ]]>
+      </script>
+		<style>
+			code {
+				font-size: 80%;
+				font-weight: bold;
+				color: rgb(90, 0, 0);
+			}</style>
+	</head>
+	<body>
+		<section id="abstract">
+			<p>This document lists standards for Optimized EPUB Publications, which are publications that have been
+				optimized for a specific reading modality.</p>
+		</section>
+		<section id="sotd" class="section">
+			<p>This document is subject to change at any time. The standards defined herein may be deprecated or
+				removed.</p>
+
+			<p>Any use of terms marked <span class="status draft">[draft]</span> should be considered experimental.</p>
+
+			<p>Deprecated standards are identified by the label <span class="status deprecated">[deprecated]</span>.
+				These standards are no longer recommended for use.</p>
+		</section>
+		<section id="conformance"></section>
+		<section id="sec-standards">
+			<h2>Standards</h2>
+
+			<p><small>Inclusion of standards in this registry does not constitute endorsement of them by the W3C or its
+					membership.</small></p>
+
+			<dl>
+				<dt id="daisy-audio"><a
+						href="http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines">DAISY
+						Guidelines for Navigable Audio-Only EPUB 3 Publications</a></dt>
+				<dd>
+					<p>Provides guidelines for creating audio-only EPUB Publications using Media Overlays.</p>
+					<p>Identified by the conformance IRI:
+							<br /><code>http://www.daisy.org/guidelines/epub/navigable-audio-only-epub3-guidelines</code>.</p>
+				</dd>
+			</dl>
+			<p class="note">Refer to the <a href="http://www.idpf.org/epub/a11y/">EPUB Accessibility specification</a>
+				for more information about these kinds of publications, and how to include the standard identifiers in
+				the Package Document metadata.</p>
+		</section>
+	</body>
+</html>
