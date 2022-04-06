@@ -10,3 +10,14 @@ div.history {
     margin-top: 2em;
     margin-bottom: 2em
 }
+div.warn {
+	position: fixed;
+    border: 0.15em solid red;
+	padding-left: 1rem;
+    padding-right: 0.5em;
+    background-color: khaki;
+    top: 0.5rem;
+}
+header {
+    padding-top: 5rem;
+}
