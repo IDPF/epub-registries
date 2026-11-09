@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This repository is archived.** 
+>
+> Extensibility registries are no longer provided for the [EPUB 3](https://www.w3.org/TR/epub/) W3C Recommendation.
+
 # EPUB Registries
 
 This repository contains the set of extensible registries used in EPUB Publications.
